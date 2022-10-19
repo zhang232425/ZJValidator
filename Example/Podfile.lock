@@ -1,0 +1,23 @@
+PODS:
+  - ZJLocalizable (0.1.0)
+  - ZJValidator (0.1.0):
+    - ZJLocalizable
+
+DEPENDENCIES:
+  - ZJValidator (from `../`)
+
+SPEC REPOS:
+  "git@github.com:zhang232425/ZJSpecs.git":
+    - ZJLocalizable
+
+EXTERNAL SOURCES:
+  ZJValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJLocalizable: 3c925ba648064d1da4ddc70c29335d4029fc0445
+  ZJValidator: 5c14195b020c903226b45d52bf455348e79c80e2
+
+PODFILE CHECKSUM: 92c684f2c0a8dd353e3560356aa127c44e2d0662
+
+COCOAPODS: 1.11.2
